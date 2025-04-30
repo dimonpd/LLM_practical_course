@@ -35,11 +35,13 @@ altair = "^5.5.0"
 boruta = "^0.4.3"
 openai = "^1.76.0"
 langchain = "^0.3.24"
-huggingface-hub = "^0.30.2"
+huggingface-hub = {extras = ["hf-xet"], version = "^0.30.2"}
 langchain-openai = "^0.3.14"
 langchain-community = "^0.3.22"
 transformers = "^4.51.3"
 langchain-huggingface = "^0.1.2"
+llama-cpp-python = "^0.3.8"
+gguf = "^0.16.2"
 
 
 [tool.poetry.group.dev.dependencies]
